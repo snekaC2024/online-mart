@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Checkout Container */
+h1 {
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 15px;
+}
+
+
+/* ✅ Notification Box Style */
+.success-message {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.success-message i {
+    margin-right: 10px;
+}
+
+/* ✅ Smooth Disappear Effect */
+.hide {
+    animation: fadeOut 5s forwards;
+}
+
+@keyframes fadeOut { 
+    0% { opacity: 1; }
+    60% { opacity: 1; }
+    70% { opacity: 0.5;}
+    100% { opacity: 0; display: none; }
+}
+
+/* Product Cards Container */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Individual Product Card */
+.product-card {
+    background: white;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Order Summary */
+p.total-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Form Styles */
+form {
+    background: white;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+textarea, select, input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button Styles */
+button {
+    background: #27ae60;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+}
+
+button:hover {
+    background: #219150;
+}
+
+/* Back to Cart Link */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

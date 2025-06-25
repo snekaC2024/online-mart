@@ -1,0 +1,68 @@
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.dashboard div {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pending span { color: orange; }
+.delivered span { color: green; }
+.cancelled span { color: red; }
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th { background-color: #4CAF50; color: white; }
+
+tr:hover { background-color: #f1f1f1; }
+
+.order-status { font-weight: bold; }
+.status-pending { color: orange; }
+.status-delivered { color: green; }
+.status-cancelled { color: red; }
+
+.filter-container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.filter-container select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover { background-color: #388E3C; }

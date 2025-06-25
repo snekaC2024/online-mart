@@ -1,0 +1,243 @@
+/* Global Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4e1f2; /* Light lavender background */
+    color: #4a148c; /* Deep purple font color */
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4a148c; /* Deep purple for headers */
+}
+
+/* Centering Container */
+body {
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4e1f2;
+    text-align: center;
+}
+
+/* Header Styles */
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4a148c; /* Deep purple for heading text */
+}
+
+/* Login Form Styling */
+form {
+    margin-left: 540px;
+    background-color: #fff; /* White form background */
+    padding: 2.5rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 2px solid #9c27b0; /* Purple border */
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+}
+
+form input:focus {
+    border-color: #ab47bc; /* Lighter purple focus border */
+    outline: none;
+    box-shadow: 0 0 8px rgba(171, 71, 188, 0.6); /* Purple shadow */
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #8e24aa; /* Purple button */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #7b1fa2; /* Darker purple on hover */
+}
+
+/* Error Message */
+form p {
+    color: rgb(55, 0, 255);
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Card Style for Links */
+a {
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #4a148c; /* Deep purple for link text */
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 250px;
+    margin: 10px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Hover Effect for Links */
+a:hover {
+    background-color: #e3a2f8; /* Purple on hover */
+    color: #ffffff;
+    box-shadow: 0 8px 25px rgba(171, 71, 188, 0.4); /* Purple shadow */
+    transform: translateY(-5px);
+}
+
+/* Specific Link Coloring */
+a:nth-child(1) {
+    background-color: #f3e5f5;
+    color: #9c27b0; /* Purple link */
+}
+
+a:nth-child(2) {
+    background-color: #fce4ec;
+    color: #d500f9; /* Bright pink link */
+}
+
+a:nth-child(3) {
+    background-color: #e1bee7;
+    color: #8e24aa; /* Medium purple link */
+}
+
+a:nth-child(4) {
+    background-color: #f9fbe7;
+    color: #ff9800; /* Golden link */
+}
+
+a:nth-child(5) {
+    background-color: #f9fbe7;
+    color: #ff9800; /* Golden link */
+}
+
+
+
+/* Table Styling */
+table {
+    margin-left: 140px;
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    font-size: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table Header Styling */
+th {
+    background-color: #8e24aa; /* Purple header */
+    color: #fff;
+}
+
+/* Table Row Hover Effect */
+tr:hover {
+    background-color: #f3e5f5; /* Light lavender on hover */
+}
+
+/* Link Styling (Delete) */
+a {
+    color: #e74c3c;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #a72bc0;
+}
+
+/* Back to Dashboard Link */
+a[href="admin_dashboard.php"] {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #9c27b0; /* Purple button */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+a[href="admin_dashboard.php"]:hover {
+    background-color: #7b1fa2; /* Darker purple */
+}
+
+/* Animation for Heading */
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    form {
+        margin-left: 30px;
+        width: 90%;
+        padding: 2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    a {
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    table {
+       width: 90%;
+       margin-left: 40px;
+    }
+
+    th, td {
+        padding: 10px;
+        font-size: 0.9rem;
+    } 
+}

@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* User Header */
+  .user-header {
+    width: 100%;
+    height: 55px;
+    background-color: #095e19;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+  }
+  
+  .user-header i {
+    font-size: 2.5rem;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  
+  .greeting {
+    font-weight: bold;
+    font-size: 2rem; 
+  }
+  
+  /* Content Section */
+  .content {
+    text-align: center;
+    margin: 25px;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Slides Section */
+  .slides-container {
+    width: 80%;
+    height: 550px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: transform 0.5s ease-in-out;
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .slide img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    z-index: 2;
+    transform: translateX(0);
+  }
+  
+  .slide.next {
+    transform: translateX(100%);
+  }
+  
+  .slide.prev {
+    transform: translateX(-100%);
+  }
+  
+  /* Slide Text */
+  .slide-text {
+    text-align: center;
+  }
+  
+  .slide-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .slide-text p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  
+  .slide-text a{
+    background-color: green;
+    padding: 15px;
+    box-shadow: 2px 2px 2px #00000095;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .slide-text i{
+    margin-left: 2px;
+  }
+  
+  /* Navigation Buttons */
+  .navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+  }
+  
+  .nav-left {
+    left: 10px;
+  }
+  
+  .nav-right {
+    right: 10px;
+  }
+  
+  .navigation button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  .navigation button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }

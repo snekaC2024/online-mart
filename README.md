@@ -23,9 +23,10 @@ A **simple, secure** online marketplace connecting **farmers** and **buyers**, b
 ---
 
 ## 🚀 Future Enhancements
- -📱 Mobile-friendly UI
- -🌍 Location-based product search
- -💳 Payment gateway integration
- -📊 Sales analytics for farmers
+- 📱 Mobile-friendly UI
+- 🌍 Location-based product search
+- 💳 Payment gateway integration
+- 📊 Sales analytics for farmers
 
-
+## 🚀 Live Demo
+🔗 [Click here to view the project]([https://your-live-link.com](https://farmer-market.wuaze.com/))

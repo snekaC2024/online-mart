@@ -29,4 +29,4 @@ A **simple, secure** online marketplace connecting **farmers** and **buyers**, b
 - 📊 Sales analytics for farmers
 
 ## 🚀 Live Demo
-🔗 [Click here to view the project]((https://farmer-market.wuaze.com/))
+🔗 [Click here to view the project](https://farmer-market.wuaze.com/)

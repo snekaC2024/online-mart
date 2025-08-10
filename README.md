@@ -1,6 +1,6 @@
 # 🌾 Online Market for Farmers
 
-![Project Thumbnail](images/thumbnail.jpg)  
+![Project Thumbnail](images/thumbnail.png)  
 A **simple, secure** online marketplace connecting **farmers** and **buyers**, built with **PHP & MySQL**.
 
 ---

@@ -13,14 +13,14 @@ A **simple, secure** online marketplace connecting **farmers** and **buyers**, b
 - 📧 **Email Notifications** for orders.
 - 🔍 **Product Search** by category, price, and location.
 
----
+
 
 ## 🛠 Tech Stack
 - **Backend:** PHP 
 - **Database:** MySQL 
 - **Frontend:** HTML5, CSS3, JavaScript  
 
----
+
 
 ## 🚀 Future Enhancements
 - 📱 Mobile-friendly UI
@@ -29,4 +29,4 @@ A **simple, secure** online marketplace connecting **farmers** and **buyers**, b
 - 📊 Sales analytics for farmers
 
 ## 🚀 Live Demo
-🔗 [Click here to view the project]([https://your-live-link.com](https://farmer-market.wuaze.com/))
+🔗 [Click here to view the project]((https://farmer-market.wuaze.com/))

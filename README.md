@@ -11,7 +11,7 @@ A **simple, secure** online marketplace connecting **farmers** and **buyers**, b
 - 📦 **Order Management** – Track, accept, and ship orders.
 - 🔐 **Role-Based Access** – Admin, Farmer, Buyer.
 - 📧 **Notifications** for orders.
-- 🔍 **Product Search** by category, price, and location.
+- 🔍 **Product Search** by category, price
 
 
 
